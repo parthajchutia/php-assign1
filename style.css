@@ -1,0 +1,23 @@
+.input {
+   color: rgb(34, 75, 222);
+   font-size: xx-large;
+   tab-size: 50px;
+}
+.formi{
+   background-color: beige;
+   padding-top: 20px;
+   padding-left: 180px;
+}
+.india input{
+   margin: 5px;
+}
+.india {
+      background-color: #191518; 
+      width: 40%; 
+      margin: 0 100px; 
+      border-radius: 1vw;
+      padding-left: 300px;
+  }
+.formi h2{
+   padding-left: 409px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="formi">
+    <h2>HTML FORM</h2>
+    <form action="connect.php" method="post" class="india">
+        <div class="input">
+            <input type="text" name="name" id="name" placeholder="Enter your name" />
+            <br>
+            
+            <input type="number" name="Roll_no" id="Roll_no" placeholder="Enter your roll no" />
+            <br>
+            <div class="dropdown1">
+                <label for="drop"  class="drop" id="sem">Semester </label>
+                <select name="Semester" id="semester">
+                    <option value="1st">1</option>
+                    <option value="2nd">2</option>
+                    <option value="3rd">3</option>
+                    <option value="4th">4</option>
+                    <option value="5th ">5</option>
+                    <option value="6th">6</option>
+                    <option value="7th">7</option>
+                    <option value="8th">8</option>
+                </select>
+
+            </div>
+            <div class="dropdown2">
+                <label for="drop" name="branch" class="drop" id="branch">Branch</label>
+                <select name="branch" id="branch">
+                    <option value="cse">CSE</option>
+                    <option value="ME">ME</option>
+                    <option value="CIVIL">CIVIL</option>
+                </select>
+                <br>
+                <input type="number" name="age" id="age" placeholder="enter your age">
+                <br>
+                <input class="sub" type="submit" value="submit">
+            </div>
+        </div>
+    </form>
+    
+
+</body>
+
+</html>
